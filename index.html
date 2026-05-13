@@ -1442,7 +1442,7 @@ section[data-zone="attunement"] {
 <body style="">
 
 <!-- ═══════════════ NAV ═══════════════ -->
-<nav id="main-nav" style="" class="scrolled">
+<nav id="main-nav" style="" class="">
   <input type="checkbox" id="mobile-menu-toggle">
   <div class="nav-inner">
     <a href="#hero" class="nav-logo">The <span>Attuned</span> Learner</a>
@@ -1471,7 +1471,7 @@ section[data-zone="attunement"] {
 </nav>
 
 <!-- ═══════════════ HERO ═══════════════ -->
-<section data-zone="hero" data-zone-label="Hero" id="hero">
+<section data-zone="hero" data-zone-label="Hero" id="hero" style="">
   <img src="./assets/11062b_e9824903aa6b4d8eab88d1aa1a7dba65~mv2.jpg" data-editable-image="" alt="Wooden nature-themed learning toys — mushrooms, trees, and rainbow arches in warm earthy tones" class="hero-bg" style="cursor: pointer;">
   <div class="hero-overlay"></div>
   <div class="container">
@@ -1493,7 +1493,7 @@ section[data-zone="attunement"] {
   <div class="container">
     <div class="about-grid">
       <div class="about-img-wrap">
-        <img src="./assets/Michelle headshot 2.png" data-editable-image="" alt="Michelle Stevens, Educational Consultant" style="cursor: pointer;">
+        <img src="./assets/DA7B390D-3C88-4016-B627-005FC438FE6E.png" data-editable-image="" alt="Michelle Stevens, Educational Consultant" style="cursor: pointer;">
         <div class="about-img-accent"></div>
         <div class="about-img-accent2"></div>
       </div>
@@ -1687,7 +1687,7 @@ section[data-zone="attunement"] {
           <p data-editable=""><strong>Join the Interest List</strong><br>If you would like to be part of the first group, or simply receive updates as it takes shape, add your email below.</p>
           <div class="interest-row">
             <input type="email" placeholder="your@email.com" aria-label="Email address">
-            <button type="button" onclick="this.textContent='Thank you!'; this.disabled=true;">Join the List</button>
+            <button type="button" onclick="this.textContent='Thank you!'; this.disabled=true;" disabled="">Thank you!</button>
           </div>
         </div>
       </div>
@@ -1720,7 +1720,7 @@ section[data-zone="attunement"] {
       <h2 data-editable="">Families finding their way</h2>
     </div>
     <div class="testi-slider-wrap">
-      <div class="testi-slider" id="testiSlider" style="transform: translateX(0%);">
+      <div class="testi-slider" id="testiSlider" style="transform: translateX(-200%);">
 
         <div class="testi-slide">
           <div class="testi-card">
@@ -1753,9 +1753,9 @@ section[data-zone="attunement"] {
       </div>
     </div>
     <div class="testi-dots" id="testiDots">
-      <button class="testi-dot active" onclick="goToSlide(0)" aria-label="Slide 1"></button>
+      <button class="testi-dot" onclick="goToSlide(0)" aria-label="Slide 1"></button>
       <button class="testi-dot" onclick="goToSlide(1)" aria-label="Slide 2"></button>
-      <button class="testi-dot" onclick="goToSlide(2)" aria-label="Slide 3"></button>
+      <button class="testi-dot active" onclick="goToSlide(2)" aria-label="Slide 3"></button>
       <button class="testi-dot" onclick="goToSlide(3)" aria-label="Slide 4"></button>
     </div>
   </div>
